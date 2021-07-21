@@ -2,7 +2,7 @@ import React from 'react';
 
 function Nav() {
     return (
-        <ul className="flex-row">
+        <ul className="flex-row align-item-center">
             <li className="nav-list">
                 <a data-testid="about" href="#about">About Me</a>
             </li>

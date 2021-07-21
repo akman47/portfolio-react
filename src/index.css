@@ -2,6 +2,7 @@
   --primary: #000000;
   --secondary: #f0f0f0;
   --tertiary: #f87903;
+  --teal: #20748d;
   --light: #418d58;
   --dark: #16225a;
 }
@@ -22,9 +23,37 @@ main {
   max-width: 90%;
 }
 
+header {
+  background: var(--teal);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+a {
+  color: var(--secondary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.navActive {
+  color: var(--tertiary);
+}
+
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.align-item-center {
+  align-items: center;
 }
 
 .nav-list {
