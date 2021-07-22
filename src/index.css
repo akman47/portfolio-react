@@ -39,10 +39,16 @@ a:hover {
   text-decoration: underline;
 }
 
-.navActive {
+.nav-list {
+  margin: 5px;
+  list-style: none;
+}
+
+.navActive a {
   color: var(--tertiary);
 }
 
+/* utils */
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -56,7 +62,21 @@ a:hover {
   align-items: center;
 }
 
-.nav-list {
-  margin: 5px;
-  list-style: none;
+/* contact style */
+.contact-form {
+  margin: 8px;
+  border-radius: 5px;
+}
+
+textarea, input {
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn {
+  padding: 5px 8px;
+  border-radius: 3px;
+  background-color: var(--teal);
+  color: var(--secondary);
+  font-weight: bold;
 }
