@@ -6,7 +6,7 @@ function About() {
         <section>
             <h1 id="about">About Me</h1>
             <div className="bio flex-row space-between">
-                <img src={bioImage}>
+                <img src={bioImage} alt="Angela Man sitting at a table eating ice cream">
                 </img>
                 <p>
                     I am currently studying to become a full stack developer. I love solving algorithms and puzzles 

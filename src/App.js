@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import About from './components/About';
+import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   const [aboutSelected, setAboutSelected] = useState(true);
@@ -23,11 +25,10 @@ function App() {
         </Header>
       <main>
         {aboutSelected && <About />}
+        {portfolioSelected && <Portfolio />}
         {contactSelected && <ContactForm />}
       </main>
-      <footer>
-        
-      </footer>
+      <Footer></Footer>
     </div>
   );
 }

@@ -37,6 +37,7 @@ function ContactForm() {
 
     return (
         <section id="contact">
+            <h1>Contact</h1>
             <div className="contact-info">
                 <h4 data-testid="contact">Contact Info</h4>
                 <address>
