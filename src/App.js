@@ -30,7 +30,7 @@ function App() {
         {contactSelected && <ContactForm />}
         {resumeSelected && <Resume />}
       </main>
-      <Footer />
+        <Footer />
     </div>
   );
 }

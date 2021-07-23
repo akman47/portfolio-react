@@ -13,42 +13,42 @@ function Nav(props) {
     } = props;
 
     return (
-        <ul className="flex-row align-item-center">
+        <ul className="flex-row align-item-center nav-bar">
             <li className={`nav-list ${aboutSelected && 'navActive'}`}>
-                <a data-testid="about" href="#about" onClick={() => {
+                <span data-testid="about" onClick={() => {
                     setAboutSelected(true)
                     setPortfolioSelected(false)
                     setContactSelected(false)
                     setResumeSelected(false)
                     }}>About Me
-                </a>
+                </span>
             </li>
             <li className={`nav-list ${portfolioSelected && 'navActive'}`}>
-                <a data-testid="portfolio" href="#portfolio" onClick={() => {
+                <span data-testid="portfolio" onClick={() => {
                     setAboutSelected(false)
                     setPortfolioSelected(true)
                     setContactSelected(false)
                     setResumeSelected(false)
                     }}>Portfolio
-                </a>
+                </span>
             </li>
             <li className={`nav-list ${contactSelected && 'navActive'}`}>
-                <a data-testid="contact" href="#contact" onClick={() => {
+                <span data-testid="contact" href="#contact" onClick={() => {
                     setAboutSelected(false)
                     setPortfolioSelected(false)
                     setContactSelected(true)
                     setResumeSelected(false)
                     }}>Contact
-                </a>
+                </span>
             </li>
             <li className={`nav-list ${resumeSelected && 'navActive'}`}>
-                <a data-testid="resume" href="#resume" onClick={() => {
+                <span data-testid="resume" href="#resume" onClick={() => {
                     setAboutSelected(false)
                     setPortfolioSelected(false)
                     setContactSelected(false)
                     setResumeSelected(true)
                     }}>Resume
-                </a>
+                </span>
             </li>
         </ul>
     );

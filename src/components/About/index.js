@@ -4,9 +4,9 @@ import bioImage from '../../assets/images/bio.jpg';
 function About() {
     return(
         <section id="about">
-            <h1 data-testid="about" className="about-header">About Me</h1>
-            <div className="bio flex-row space-between">
-                <img src={bioImage} style={{width: "20%", height: "30%"}} alt="Angela Man sitting at a table eating ice cream">
+            <h2 data-testid="about" className="about-header">About Me</h2>
+            <div className="bio">
+                <img src={bioImage} className="bio-img" alt="Angela Man sitting at a table eating ice cream">
                 </img>
                 <p>
                     I am currently studying to become a full stack developer. I love solving algorithms and puzzles 
