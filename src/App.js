@@ -3,6 +3,7 @@ import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
@@ -27,8 +28,9 @@ function App() {
         {aboutSelected && <About />}
         {portfolioSelected && <Portfolio />}
         {contactSelected && <ContactForm />}
+        {resumeSelected && <Resume />}
       </main>
-      <Footer></Footer>
+      <Footer />
     </div>
   );
 }

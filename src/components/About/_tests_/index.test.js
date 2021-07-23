@@ -14,4 +14,9 @@ describe('About componenet', () => {
         const { asFragment } = render(<About />);
         expect(asFragment()).toMatchSnapshot();
     });
+
+    it('h1 displays about me', () => {
+        const { getByTestId } = render(<About />);
+        expect(getByTestId('about')).toHaveTextContent('About Me');
+    });
 });

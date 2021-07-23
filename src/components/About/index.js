@@ -3,10 +3,10 @@ import bioImage from '../../assets/images/bio.jpg';
 
 function About() {
     return(
-        <section>
-            <h1 id="about">About Me</h1>
+        <section id="about">
+            <h1 data-testid="about" className="about-header">About Me</h1>
             <div className="bio flex-row space-between">
-                <img src={bioImage} alt="Angela Man sitting at a table eating ice cream">
+                <img src={bioImage} style={{width: "20%", height: "30%"}} alt="Angela Man sitting at a table eating ice cream">
                 </img>
                 <p>
                     I am currently studying to become a full stack developer. I love solving algorithms and puzzles 
@@ -16,7 +16,7 @@ function About() {
                     which inspire me to dive even deeper into my creativity. That's a great programming loop to be in!
                     It puts the cherry on top of the ice-cream.
                     <br></br><br></br> 
-                    If my work below inspires you, let me know!
+                    If my work inspires you, let me know!
                 </p>
             </div>
         </section>
