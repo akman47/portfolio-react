@@ -24,13 +24,13 @@ function App() {
         resumeSelected={resumeSelected}
         setResumeSelected={setResumeSelected}>
         </Header>
-      <main>
+      <main className="content-container">
         {aboutSelected && <About />}
         {portfolioSelected && <Portfolio />}
         {contactSelected && <ContactForm />}
         {resumeSelected && <Resume />}
       </main>
-        <Footer />
+      <Footer />
     </div>
   );
 }

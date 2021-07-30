@@ -25,7 +25,6 @@ function Resume() {
                 <li>MongoDB, Mongoose</li>
                 <li>REST</li>
             </ul>
-
         </section>
     )
 }

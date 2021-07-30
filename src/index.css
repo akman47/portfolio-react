@@ -67,6 +67,11 @@ span:hover, a:hover {
   flex-wrap: wrap;
 }
 
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -93,6 +98,10 @@ span:hover, a:hover {
 
 .mx-25 {
   margin-left: 25px;
+}
+
+.mt-auo {
+  margin-top: auto
 }
 
  /* about me style */
@@ -152,6 +161,7 @@ form {
 }
 
 .contact-info h4 {
+  margin-top: 25px;
   margin-bottom: 7px;
   text-decoration: underline;
 }
@@ -168,21 +178,65 @@ a {
 
 .project-card {
   border: 2px solid var(--secondary);
+  background-size: cover;
   margin: 20px;
-  width: 40%;
+  width: 100%;
+  height: 40%;
+}
+
+.project-card:hover {
+  background-color: var(--light);
+  border: 4px solid var(--tertiary);
+  color: var(--primary);
+}
+
+.project-content {
+  height: 100%;
+  opacity: 0;
+}
+
+.project-content:hover {
+  opacity: 1;
 }
 
 .project-icon {
-  margin-left: 12px;
+  margin-left: 14px;
+}
+
+.project-title, .project-info {
+  background-color: rgba(32, 116, 141, 0.7);
+}
+
+.project-title h3 {
+  margin-left: 10px;
+  text-align: center;
+}
+
+.project-info {
+  padding: 3px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.project-icon:hover {
+  content: url('./assets/icons/GitHub-Mark-32px.png');
 }
 
 .project-card span:hover {
   text-decoration: none;
+  cursor: none;
 }
 
-footer {
-  padding: 20px;
-  margin-top: 40px;
+.content-container {
+  min-height: calc(100vh);
+}
+
+.footer {
+  margin-top: auto;
+  padding: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /* MEDIA QUERY FOR LARGE MOBILE SCREENS AND LARGER */
@@ -224,6 +278,11 @@ footer {
     font-size: 18px;
   }
 
+  .project-card {
+    width: 35%;
+    height: 40%;
+  }
+
   #contact {
     display: flex;
     justify-content: flex-start;
@@ -239,6 +298,7 @@ footer {
 
   .contact-info {
     margin-top: 15px;
+    width: 40%
   }
 
   .btn {
