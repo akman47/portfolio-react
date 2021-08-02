@@ -23,6 +23,7 @@ function Resume() {
                 <li>Express</li>
                 <li>MySQL, Sequelize</li>
                 <li>MongoDB, Mongoose</li>
+                <li>GraphQL</li>
                 <li>REST</li>
             </ul>
         </section>

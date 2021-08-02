@@ -1,13 +1,16 @@
 import React from 'react';
 import bioImage from '../../assets/images/bio.jpg';
+import podiumImage from '../../assets/images/spain-podium.JPG';
 
 function About() {
     return(
         <section id="about">
             <h2 data-testid="about" className="about-header">About Me</h2>
             <div className="bio">
-                <img src={bioImage} className="bio-img" alt="Angela Man sitting at a table eating ice cream">
-                </img>
+                <div className="img-container">
+                    <img src={bioImage} className="bio-img" alt="Angela Man sitting at a table eating ice cream"></img>
+                    <img src={podiumImage} className="bio-img" alt="World Championships Podium in Spain"></img>
+                </div>
                 <p>
                     I am currently studying to become a full stack developer. I love solving algorithms and puzzles 
                     along with being creative, so developing web applications is an indulgence! When I am not creating
