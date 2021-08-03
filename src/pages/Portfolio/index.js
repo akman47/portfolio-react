@@ -6,7 +6,7 @@ function Portfolio() {
         <section id="Portfolio">
             <h1>Portfolio</h1>
             <div className="project-container flex-row">
-                <Project></Project>
+                <Project />
             </div>
         </section>
     )

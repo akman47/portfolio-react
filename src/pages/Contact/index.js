@@ -50,7 +50,7 @@ function ContactForm() {
                 <button data-testid="btn" className="btn" type="submit">Submit</button>
             </form>
             <div className="contact-info">
-                <h4 data-testid="contact">Contact Information</h4>
+                <h4 data-testid="contact">Contact Info</h4>
                 <div>
                     Phone: <a href="tel:+12813006033">281.300.6033</a><br />
                     Email: <a href="mailto:angela.k.man@gmail.com">angela.k.man@gmail.com</a><br />

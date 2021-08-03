@@ -23,6 +23,33 @@ body {
 main {
   margin: 0 auto;
   max-width: 90%;
+  min-height: 100%;
+  height: auto !important;
+}
+
+/* terminal style */
+.terminal-img {
+  width: 100%;
+  text-align: center;
+  padding-top: 55px;
+}
+
+.terminal img {
+  padding-top: 30px;
+  width: 100%;
+}
+
+.terminal span {
+  text-align: center;
+}
+
+.terminal span:hover {
+  text-decoration: none;
+}
+
+.terminal-text {
+  text-align: right;
+  float: right;
 }
 
 /* header style */
@@ -173,6 +200,10 @@ form {
   width: 40%;
 }
 
+.btn:hover {
+  background-color: var(--light);
+}
+
 .contact-info {
   line-height: 1.4;
   margin: auto;
@@ -200,7 +231,8 @@ a {
   background-size: cover;
   margin: 20px;
   width: 100%;
-  height: 40%;
+  height: 45%;
+  flex: 0 auto;
 }
 
 .project-card:hover {
@@ -219,7 +251,7 @@ a {
 }
 
 .project-icon {
-  margin-left: 14px;
+  margin: 18px;
 }
 
 .project-title, .project-info {
@@ -246,18 +278,37 @@ a {
   cursor: none;
 }
 
+.project-container {
+  height: 100%;
+}
 .content-container {
   min-height: 95vh;
 }
 
-.home {
-  width: 100%;
-  text-align: center;
-  padding-top: 55px;
+/* resume styles */
+.tech-card {
+  border: 2px solid var(--secondary);
+  width: 40%;
+  padding: 5px;
+  background-color: var(--teal);
 }
 
-.home img {
-  width: 100%;
+.tech-card-title {
+  padding: 15px;
+  font-size: 18px;
+}
+
+.tech-card-title:hover {
+  text-decoration: none;
+  cursor: auto;
+}
+
+.tech-card-body {
+  line-height: 1.5;
+}
+
+#Resume button {
+  width: 55%;
 }
 
 .footer {
@@ -349,5 +400,21 @@ a {
 
   .btn {
     width: 20%;
+  }
+
+  .tech-card {
+    padding: 15px;
+  }
+
+  #Resume button {
+    width: 25%;
+  }
+
+  .tech-card-title {
+    font: 20px;
+  }
+
+  .project-container {
+    height: auto;
   }
 }
