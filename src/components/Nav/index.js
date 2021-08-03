@@ -7,10 +7,9 @@ function Nav(props) {
         <ul className="flex-row align-item-center nav-bar">
             {tabs.map(tab => (
                 <li className={`nav-list ${props.currentPage === tab ? 'navActive' : 'nav-list'}`} key={tab}>
-                    <span data-testid={tab.toLowerCase()} onClick={() => props.handlePageChange(tab)}
-                        >
-                            {tab}
-                        </span>
+                    <span data-testid={tab.toLowerCase()} onClick={() => props.handlePageChange(tab)}>
+                        {tab}
+                     </span>
                 </li>
             ))}
         </ul>

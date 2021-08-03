@@ -1,5 +1,6 @@
 import React from 'react';
 import Project from '../Project';
+import ProjectB from '../ProjectB';
 
 function Portfolio() {
     return (

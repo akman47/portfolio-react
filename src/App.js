@@ -8,11 +8,6 @@ import Footer from './components/Footer';
 import Home from './components/Home';
 
 function App() {
-  const [aboutSelected, setAboutSelected] = useState(false);
-  const [portfolioSelected, setPortfolioSelected] = useState(false);
-  const [contactSelected, setContactSelected] = useState(false);
-  const [resumeSelected, setResumeSelected] = useState(false);
-  const [homeSelected, setHomeSelected] = useState(true);
   const [currentPage, handlePageChange] = useState('Home');
 
   function renderPage() {
