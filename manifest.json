@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Angela Man Portfolio",
+  "short_name": "Angela Man",
+  "description": "An app that showcases my abilities as a full stack developer",
   "icons": [
     {
       "src": "favicon.ico",
