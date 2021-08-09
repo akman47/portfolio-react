@@ -4,7 +4,7 @@ function Resume() {
     return (
         <section id="Resume">
             <h1 data-testid="resume">Skills &amp; Experience</h1>
-            <a href="https://www.linkedin.com/in/angela-man-b8533a6b/" target="_blank"><button className="btn">Download my resume</button></a>
+            <a href="https://drive.google.com/file/d/1ig66QVZOr92mOo0-YWz1qse_Eh5UgeaH/view?usp=sharing" target="_blank"><button className="btn">Download my resume</button></a>
             <br></br>
             <br></br>
             <div className="card-container flex-row space-around align-items-center">
