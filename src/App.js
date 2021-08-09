@@ -35,7 +35,7 @@ function App() {
         </Header>
       <main className="content-container">
         <Switch>
-          <Route exact path="/" component={Terminal} />
+          <Route exact path="/portfolio-react" component={Terminal} />
           <Route exact path="/about" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
           <Route exact path="/contact" component={ContactForm} />

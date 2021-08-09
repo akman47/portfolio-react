@@ -16,6 +16,8 @@ An application that showcases my projects and abilities as a full stack web deve
 http://akman47.github.io/portfolio-react
 
 ## Snapshot
+![Snapshot of Portfolio](./src/assets/images/portfolio.png)
+![Snapshot of Portfolio About Me](./src/assets/images/about-me.png)
 
 ## Portfolio Applications
 * [Clonello](https://powerful-falls-76508.herokuapp.com/)
