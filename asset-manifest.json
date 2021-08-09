@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.b267b447.chunk.css",
-    "main.js": "/portfolio-react/static/js/main.12bb57c5.chunk.js",
-    "main.js.map": "/portfolio-react/static/js/main.12bb57c5.chunk.js.map",
+    "main.js": "/portfolio-react/static/js/main.24ca9234.chunk.js",
+    "main.js.map": "/portfolio-react/static/js/main.24ca9234.chunk.js.map",
     "runtime-main.js": "/portfolio-react/static/js/runtime-main.b0e620e1.js",
     "runtime-main.js.map": "/portfolio-react/static/js/runtime-main.b0e620e1.js.map",
     "static/js/2.b20dddfc.chunk.js": "/portfolio-react/static/js/2.b20dddfc.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/code-quiz.c68d52e4.png": "/portfolio-react/static/media/code-quiz.c68d52e4.png",
     "static/media/happy-meals.b2a65ecf.png": "/portfolio-react/static/media/happy-meals.b2a65ecf.png",
     "static/media/linked-in.fd511542.png": "/portfolio-react/static/media/linked-in.fd511542.png",
-    "static/media/lost-mines.dd3f107c.jpg": "/portfolio-react/static/media/lost-mines.dd3f107c.jpg",
+    "static/media/lost-mines.cdc4a0f8.jpg": "/portfolio-react/static/media/lost-mines.cdc4a0f8.jpg",
     "static/media/spain-podium.307ddb40.JPG": "/portfolio-react/static/media/spain-podium.307ddb40.JPG",
     "static/media/tech-blog.b618c9ac.png": "/portfolio-react/static/media/tech-blog.b618c9ac.png",
     "static/media/weather-dashboard.6412d0f7.png": "/portfolio-react/static/media/weather-dashboard.6412d0f7.png"
@@ -27,6 +27,6 @@
     "static/js/runtime-main.b0e620e1.js",
     "static/js/2.b20dddfc.chunk.js",
     "static/css/main.b267b447.chunk.css",
-    "static/js/main.12bb57c5.chunk.js"
+    "static/js/main.24ca9234.chunk.js"
   ]
 }
