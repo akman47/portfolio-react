@@ -6,9 +6,18 @@ import clonelloImg from '../../assets/images/Clonello.png';
 import quizImg from '../../assets/images/code-quiz.png';
 import happyMealsImg from '../../assets/images/happy-meals.png';
 import budgetImg from '../../assets/images/budget-tracker.png';
+// import bikeSleuthImg from '../../assets/images/bike-sleuth.png';
 
 function Project() {
     const work = [
+        {
+            title: 'Bike Sleuth',
+            appLink: 'https://bikesleuth.herokuapp.com/#/',
+            repoLink: 'https://github.com/Chrisdocs/FindMyBike',
+            languages: 'MERN, JavaScript, Tailwind',
+            snapshot: budgetImg,
+            description: 'Full stack app for storing bike information to aid in searching for lost bikes'
+        },
         {
             title: 'Tech Blog',
             appLink: 'https://protected-oasis-13537.herokuapp.com/',
@@ -41,14 +50,14 @@ function Project() {
             snapshot: quizImg,
             description: 'Frontend JS Code Quiz to test your knowledge'
         },
-        {
-            title: 'Happy Meals',
-            appLink: 'https://jmol721.github.io/get-you-a-happy-meal-toy-not-included/',
-            repoLink: 'https://github.com/jmol721/get-you-a-happy-meal-toy-not-included',
-            languages: 'HTML, CSS, JavaScript, Foundation, APIs',
-            snapshot: happyMealsImg,
-            description: 'A frontend app for finding and storing new recipes'
-        },
+        // {
+        //     title: 'Happy Meals',
+        //     appLink: 'https://jmol721.github.io/get-you-a-happy-meal-toy-not-included/',
+        //     repoLink: 'https://github.com/jmol721/get-you-a-happy-meal-toy-not-included',
+        //     languages: 'HTML, CSS, JavaScript, Foundation, APIs',
+        //     snapshot: happyMealsImg,
+        //     description: 'A frontend app for finding and storing new recipes'
+        // },
         {
             title: 'Budget Tracker',
             appLink: 'https://budget-tracker03.herokuapp.com/',

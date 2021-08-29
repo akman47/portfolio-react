@@ -12,12 +12,13 @@ function About() {
                     <img src={podiumImage} className="bio-img" alt="World Championships Podium in Spain"></img>
                 </div>
                 <p>
-                    I am currently studying to become a full stack developer. I love solving algorithms and puzzles 
-                    along with being creative, so developing web applications is an indulgence! When I am not creating
-                    content, I train and compete as a triathlete at the national and world level. To unwind
-                    and recharge, I love to spend time outdoors, camping, hiking, and going on soul-filling adventures
-                    which inspire me to dive even deeper into my creativity. That's a great programming loop to be in!
-                    It puts the cherry on top of the ice-cream.
+                    I am a full stack developer and an athletics performance coach. I have a science and mathematics background from a
+                    Bachelor of Science in Biology at the University of Houston, along with minor concentrations in chemistry, mathematics, 
+                    and medicine in society. I love solving algorithms and puzzles along with being creative, so developing web applications 
+                    is an indulgence! When I am not creating content, I train and compete as a triathlete at the national and world level, 
+                    while also aiding other athletes in reaching their goals. To unwind and recharge, I love to spend time outdoors, camping, 
+                    hiking, and going on soul-filling adventures which inspire me to dive even deeper into my creativity. That's a great programming 
+                    loop to be in! It puts the cherry on top of the ice-cream.
                     <br></br><br></br> 
                     If my work inspires you, let me know!
                 </p>
