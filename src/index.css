@@ -145,19 +145,21 @@ span:hover, a:hover {
 .bio p {
   width: 100%;
   padding: 8px;
+  line-height: 1.6;
 }
 
 .img-container img {
-  width: 40%;
+  width: 50%;
   height: 40%;
   object-fit: cover;
   margin: 8px auto;
+  border-radius: 50%;
 }
 
 .img-container {
   padding-top: 8px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
@@ -342,6 +344,10 @@ a {
     font-size: 18px;
   }
 
+
+  header span {
+    font-size: 18px;
+  }
   /* .bio {
     flex-direction: row;
     align-items: center;
@@ -351,29 +357,34 @@ a {
 
   .bio p {
     width: 100%;
-    line-height: 2.0;
+    line-height: 2.3;
     padding: 25px;
   }
 
-  /* .bio-img {
-    width: 60%;
-    height: 50%;
-  } */
-
-  /* .img-container {
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0;
-  }
-*/
-  .img-container img {
-    width: 350px;
-    height: 350px;
+  .bio-img {
+    display: inline;
   }
 
-  span {
+  .img-container {
+    flex-direction: row;
+  }
+
+  .img-container .bio-img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .img-container .podium-img {
+    width: 300px;
+    height: 300px;
+    float: right;
+  }
+
+  .bio-end {
+    text-align: center;
     font-size: 18px;
   }
+
 
   .project-card {
     width: 35%;

@@ -6,16 +6,16 @@ import clonelloImg from '../../assets/images/Clonello.png';
 import quizImg from '../../assets/images/code-quiz.png';
 import happyMealsImg from '../../assets/images/happy-meals.png';
 import budgetImg from '../../assets/images/budget-tracker.png';
-import bikeSleuthImg from '../../assets/images/BikeSleuth-search.png';
+// import bikeSleuthImg from '../../assets/images/bike-sleuth.png';
 
-function Project() {
+function Accordian() {
     const work = [
         {
             title: 'Bike Sleuth',
             appLink: 'https://bikesleuth.herokuapp.com/#/',
             repoLink: 'https://github.com/Chrisdocs/FindMyBike',
             languages: 'MERN, JavaScript, Tailwind',
-            snapshot: bikeSleuthImg,
+            snapshot: budgetImg,
             description: 'Full stack app for storing bike information to aid in searching for lost bikes'
         },
         {
@@ -85,4 +85,4 @@ function Project() {
     )
 }
 
-export default Project;
+export default Accordian;
